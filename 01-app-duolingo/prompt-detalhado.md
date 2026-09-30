@@ -32,14 +32,14 @@ Gere com `npx hyperframes tts --lang pt-br --voice pf_dora`, um arquivo por fras
 2. "Mais de quarenta línguas para escolher."
 3. "Escute, fale e treine o vocabulário."
 4. "Nota quatro vírgula nove, com mais de um milhão de avaliações."
-5. "Baixe grátis na App Store."
+5. "Baixe grátis agora."
 
 CENAS (25 s no total)
 1. 0 a 5 s: ícone entra no centro com bounce; título "Aprenda idiomas" palavra por palavra. Narração 1.
 2. 5 a 10 s: print-1 sobe dentro da moldura do celular; print-2 entra atrás, deslocado (parallax). Chip "+40 idiomas". Narração 2.
 3. 10 a 15 s: print-4 e print-5 lado a lado, com zoom lento (1,00 a 1,06). Narração 3.
 4. 15 a 20 s: print-3 ao centro; selo com contagem de 0 até 4,9 e "+1,1 mi de avaliações" contando. Narração 4.
-5. 20 a 25 s: ícone volta grande; botão desenhado "Baixar grátis na App Store" (sem logo da Apple). Narração 5.
+5. 20 a 25 s: ícone volta grande; botão desenhado "Baixar grátis agora" (sem logo da Apple). Narração 5.
 
 ESTILO
 Fundo escuro (#0b1220). Cor de destaque tirada do próprio ícone. Títulos grossos, palavra por palavra. Transições curtas (0,4 a 0,6 s) com ease power3.out.

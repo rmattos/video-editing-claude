@@ -9,5 +9,5 @@ Dados reais da App Store BR (28/09/2026): nota 4,9; cerca de 8,9 milhões de ava
 2 "Explore restaurantes e use os filtros para achar rápido." (print-2 e print-3)
 3 "Faça mercado e peça bebidas em poucos cliques." (print-4 e print-5)
 4 "Nota quatro vírgula nove, com quase nove milhões de avaliações." (print-1 + contador de 0 a 4,9)
-5 "Baixe grátis na App Store." (botão desenhado, sem logo da Apple)
+5 "Baixe grátis agora." (botão desenhado, sem logo da Apple)
 Fundo #0b1220, destaque na cor do ícone. Rode o check e renderize em renders/ifood-demo.mp4.

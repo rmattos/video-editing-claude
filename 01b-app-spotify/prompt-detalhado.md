@@ -32,14 +32,14 @@ Gere com `npx hyperframes tts --lang pt-br --voice pf_dora`, um arquivo por fras
 2. "Playlists feitas para você, e a letra de cada música na tela."
 3. "Os podcasts que você adora, no mesmo app."
 4. "Nota quatro vírgula nove, com mais de onze milhões de avaliações."
-5. "Baixe grátis na App Store."
+5. "Baixe grátis agora."
 
 CENAS (25 s no total)
 1. 0 a 5 s: ícone entra no centro com bounce; título "Música e podcasts" palavra por palavra. Narração 1.
 2. 5 a 10 s: print-4 sobe dentro da moldura do celular; print-3 entra atrás, deslocado (parallax). Chip "Playlists e letras". Narração 2.
 3. 10 a 15 s: print-2 e print-1 lado a lado, com zoom lento (1,00 a 1,06). Narração 3.
 4. 15 a 20 s: print-5 ao centro; selo com contagem de 0 até 4,9 e "+11 mi de avaliações" contando. Narração 4.
-5. 20 a 25 s: ícone volta grande; botão desenhado "Baixar grátis na App Store" (sem logo da Apple). Narração 5.
+5. 20 a 25 s: ícone volta grande; botão desenhado "Baixar grátis agora" (sem logo da Apple). Narração 5.
 
 ESTILO
 Fundo escuro (#0b1220). Cor de destaque tirada do próprio ícone. Títulos grossos, palavra por palavra. Transições curtas (0,4 a 0,6 s) com ease power3.out.
