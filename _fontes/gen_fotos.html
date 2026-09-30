@@ -1,0 +1,57 @@
+<!doctype html><html><head><meta charset="utf-8"><style>body{margin:0;background:#000}svg{display:block}</style></head><body>
+<svg width="0" height="0"><defs>
+<linearGradient id="wood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a5a35"/><stop offset="1" stop-color="#5a3520"/></linearGradient>
+<linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3e6d3"/><stop offset="1" stop-color="#e2c9a6"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a2618"/><stop offset="1" stop-color="#1b110b"/></linearGradient>
+<linearGradient id="cer" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9b892"/><stop offset=".45" stop-color="#f6ead9"/><stop offset="1" stop-color="#c9a27a"/></linearGradient>
+<linearGradient id="band" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a95a2a"/><stop offset=".45" stop-color="#d98a52"/><stop offset="1" stop-color="#9b4f24"/></linearGradient>
+<radialGradient id="light" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff6e0" stop-opacity=".85"/><stop offset="1" stop-color="#fff6e0" stop-opacity="0"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter><filter id="blur20"><feGaussianBlur stdDeviation="22"/></filter><filter id="blur3"><feGaussianBlur stdDeviation="3"/></filter>
+<g id="mug">
+  <ellipse cx="0" cy="118" rx="150" ry="26" fill="#000" opacity=".28" filter="url(#blur8)"/>
+  <path d="M120 -60 C215 -60 215 60 120 60" fill="none" stroke="#c9a27a" stroke-width="30" stroke-linecap="round"/>
+  <path d="M120 -60 C215 -60 215 60 120 60" fill="none" stroke="#f3e2c9" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+  <path d="M-135 -105 L135 -105 L118 95 Q0 130 -118 95 Z" fill="url(#cer)"/>
+  <path d="M-131 -40 L131 -40 L126 12 Q0 40 -126 12 Z" fill="url(#band)" opacity=".92"/>
+  <path d="M-100 -95 L-84 85" stroke="#fff" stroke-width="12" stroke-linecap="round" opacity=".55" filter="url(#blur3)"/>
+  <ellipse cx="0" cy="-105" rx="135" ry="26" fill="#efdcc0"/>
+  <ellipse cx="0" cy="-103" rx="118" ry="19" fill="#3b2314"/>
+  <ellipse cx="-20" cy="-108" rx="60" ry="7" fill="#5a3a22" opacity=".8"/>
+</g>
+<g id="bean"><ellipse cx="0" cy="0" rx="17" ry="11" fill="#4a2c19"/><path d="M-13 -1 Q0 -7 13 1" stroke="#22120a" stroke-width="2.4" fill="none"/><ellipse cx="-5" cy="-4" rx="6" ry="2.2" fill="#8a5a3a" opacity=".6"/></g>
+</defs></svg>
+
+<!-- 1: hero -->
+<svg id="s1" width="1080" height="1080" viewBox="0 0 1080 1080"><rect width="1080" height="1080" fill="url(#wall)"/><circle cx="800" cy="260" r="360" fill="url(#light)"/><rect y="700" width="1080" height="380" fill="url(#wood)"/><rect y="700" width="1080" height="10" fill="#3f2515" opacity=".5"/>
+<g stroke="#fff" stroke-width="10" fill="none" stroke-linecap="round" opacity=".55" filter="url(#blur3)"><path d="M470 330 C430 280 520 250 480 190 C450 150 510 120 500 80"/><path d="M560 340 C520 290 610 260 570 200 C540 160 600 130 590 90"/></g>
+<use href="#mug" transform="translate(540 620) scale(1.55)"/></svg>
+<!-- 2: close-up -->
+<svg id="s2" width="1080" height="1080" viewBox="0 0 1080 1080"><rect width="1080" height="1080" fill="url(#dark)"/>
+<g filter="url(#blur20)" opacity=".7"><circle cx="180" cy="200" r="90" fill="#f2b66d"/><circle cx="900" cy="140" r="60" fill="#ffd9a0"/><circle cx="960" cy="420" r="110" fill="#c8703a"/><circle cx="90" cy="520" r="70" fill="#ffd9a0"/></g>
+<use href="#mug" transform="translate(470 640) scale(3.4)"/></svg>
+<!-- 3: top view -->
+<svg id="s3" width="1080" height="1080" viewBox="0 0 1080 1080"><rect width="1080" height="1080" fill="url(#wood)"/>
+<g opacity=".18" stroke="#2c170b" stroke-width="3"><path d="M0 140H1080M0 320H1080M0 500H1080M0 680H1080M0 860H1080M0 1040H1080"/></g>
+<ellipse cx="560" cy="600" rx="330" ry="330" fill="#000" opacity=".3" filter="url(#blur20)"/>
+<path d="M800 470 C930 470 930 640 800 640" fill="none" stroke="#c9a27a" stroke-width="42" stroke-linecap="round"/>
+<circle cx="520" cy="540" r="290" fill="#efdcc0"/><circle cx="520" cy="540" r="250" fill="#a95a2a"/><circle cx="520" cy="540" r="238" fill="#3b2314"/>
+<circle cx="520" cy="540" r="205" fill="#5b3620"/><path d="M520 640 C400 560 440 450 520 500 C600 450 640 560 520 640Z" fill="#f3e3c8"/><path d="M520 615 C450 560 470 500 520 530 C570 500 590 560 520 615Z" fill="#e6cfa8" opacity=".7"/>
+<g><use href="#bean" transform="translate(190 900) rotate(20) scale(1.6)"/><use href="#bean" transform="translate(300 960) rotate(-40) scale(1.5)"/><use href="#bean" transform="translate(880 850) rotate(70) scale(1.6)"/><use href="#bean" transform="translate(960 930) rotate(10) scale(1.4)"/><use href="#bean" transform="translate(790 960) rotate(-20) scale(1.5)"/><use href="#bean" transform="translate(130 130) rotate(50) scale(1.5)"/><use href="#bean" transform="translate(240 90) rotate(-10) scale(1.4)"/></g></svg>
+<!-- 4: bag -->
+<svg id="s4" width="1080" height="1080" viewBox="0 0 1080 1080"><rect width="1080" height="1080" fill="url(#wall)"/><rect y="780" width="1080" height="300" fill="url(#wood)"/>
+<ellipse cx="400" cy="800" rx="230" ry="30" fill="#000" opacity=".3" filter="url(#blur8)"/>
+<path d="M210 230 L590 230 L620 800 L180 800Z" fill="#c8703a"/><path d="M210 230 L590 230 L596 290 L204 290Z" fill="#a95a2a"/><path d="M180 800 L620 800 L610 770 L190 770Z" fill="#8f4a22"/>
+<rect x="250" y="400" width="300" height="260" rx="14" fill="#f3e6d3"/><text x="400" y="510" font-family="Georgia,serif" font-size="70" text-anchor="middle" fill="#5a3520" font-weight="700">SERRA</text><text x="400" y="565" font-family="Georgia,serif" font-size="30" text-anchor="middle" fill="#8f4a22" letter-spacing="6">CAFÉ ESPECIAL</text><text x="400" y="620" font-family="Georgia,serif" font-size="26" text-anchor="middle" fill="#8f4a22">250 g · grãos</text>
+<g><use href="#bean" transform="translate(690 830) rotate(20) scale(1.7)"/><use href="#bean" transform="translate(760 870) rotate(-40) scale(1.6)"/><use href="#bean" transform="translate(830 820) rotate(80) scale(1.7)"/><use href="#bean" transform="translate(920 880) rotate(10) scale(1.5)"/><use href="#bean" transform="translate(720 930) rotate(-30) scale(1.6)"/></g>
+<use href="#mug" transform="translate(830 690) scale(.95)"/></svg>
+<!-- 5: lifestyle -->
+<svg id="s5" width="1080" height="1080" viewBox="0 0 1080 1080"><rect width="1080" height="1080" fill="#e8d5b8"/>
+<rect x="640" y="90" width="340" height="520" rx="10" fill="#fff6e0"/><path d="M810 90V610M640 350H980" stroke="#c9a27a" stroke-width="12"/><circle cx="810" cy="300" r="260" fill="url(#light)"/>
+<rect y="720" width="1080" height="360" fill="url(#wood)"/>
+<g fill="#4c6b3d"><path d="M120 720 C60 560 140 460 180 400 C200 500 200 620 120 720Z"/><path d="M120 720 C160 590 240 520 300 500 C270 600 220 680 120 720Z"/><path d="M120 720 C90 620 40 580 20 520 C90 540 130 610 120 720Z"/></g><rect x="70" y="700" width="110" height="60" rx="8" fill="#a95a2a"/>
+<rect x="250" y="640" width="470" height="52" rx="6" fill="#7b4a30"/><rect x="270" y="590" width="440" height="52" rx="6" fill="#d8b98b"/><rect x="290" y="545" width="410" height="46" rx="6" fill="#4b5f78"/>
+<use href="#mug" transform="translate(500 440) scale(.85)"/></svg>
+<!-- 6: clean shot -->
+<svg id="s6" width="1080" height="1080" viewBox="0 0 1080 1080"><rect width="1080" height="1080" fill="#f6ead9"/><circle cx="540" cy="700" r="330" fill="url(#light)"/><rect y="800" width="1080" height="280" fill="url(#wood)"/>
+<use href="#mug" transform="translate(540 700) scale(1.35)"/></svg>
+</body></html>

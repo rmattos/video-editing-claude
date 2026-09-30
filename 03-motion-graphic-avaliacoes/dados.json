@@ -1,0 +1,15 @@
+{
+  "titulo": "Avaliações na App Store do Brasil",
+  "subtitulo": "4 apps, lado a lado",
+  "fonte": "App Store (loja do Brasil) via Apple iTunes Lookup API",
+  "consultado_em": "2026-09-28",
+  "observacao": "avaliacoes = total de avaliações da loja BR (todas as versões); nota = média de 0 a 5",
+  "apps": [
+    { "nome": "Spotify",  "avaliacoes": 11057769, "nota": 4.9, "icone": "assets/icone-spotify.jpg" },
+    { "nome": "iFood",    "avaliacoes": 8868952,  "nota": 4.9, "icone": "assets/icone-ifood.jpg" },
+    { "nome": "Nubank",   "avaliacoes": 1642072,  "nota": 4.8, "icone": "assets/icone-nubank.jpg" },
+    { "nome": "Duolingo", "avaliacoes": 1149571,  "nota": 4.9, "icone": "assets/icone-duolingo.jpg" }
+  ],
+  "formato_pt_br": ["11,1 mi", "8,9 mi", "1,6 mi", "1,1 mi"],
+  "destaque": "Spotify tem quase 10 vezes as avaliações do Duolingo (11.057.769 / 1.149.571 = 9,6)"
+}

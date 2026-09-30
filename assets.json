@@ -1,0 +1,48 @@
+{
+  "_nota": "URLs oficiais da App Store (BR) conferidas em 28/09/2026 pelo navegador. O script usa a API iTunes Lookup primeiro (URLs sempre atuais) e cai para estas se a API falhar.",
+  "consultado_em": "2026-09-28",
+  "apps": {
+    "duolingo": {
+      "id": 570060128, "nome": "Duolingo – Aprenda idiomas", "vendedor": "Duolingo, Inc", "nota": 4.9, "avaliacoes": 1149571,
+      "loja": "https://apps.apple.com/br/app/duolingo-aprenda-idiomas/id570060128",
+      "icone": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/06/49/840649d1-5c4c-0c8a-4947-cf38e18493e4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
+      "prints": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/ab/62/13ab6248-4278-111b-236e-1ae46979e9c9/782048d6-9cce-4e3e-8cc7-95a6996e293d_pt_iphone6.5_screen_1.png/1242x2688bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/79/f7/8e79f7ed-cfbb-a209-9dfa-86a81c89b864/5f7c8a45-6f5f-48aa-ae26-0b0ce63e3230_pt-br_iphone6.5_screen_2.png/1242x2688bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/c5/2d/59c52d7e-3fbd-eb91-b2ce-b02004a03875/e83b4306-bad3-4478-a742-241f1749e950_pt-br_iphone6.5_screen_3.png/1242x2688bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e4/71/ee/e471ee08-a382-2452-729d-3e41058c1f64/15bbbec0-0d40-48ae-aa54-9080bec329a2_pt-br_iphone6.5_screen_4.png/1242x2688bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/73/9c/2d/739c2d77-5b37-23ea-6e34-4f0882a211e8/02b64c9b-c40b-40d5-b949-9d87e529c4ad_pt-br_iphone6.5_screen_5.png/1242x2688bb.jpg"
+      ]
+    },
+    "spotify": {
+      "id": 324684580, "nome": "Spotify: músicas e podcasts", "vendedor": "Spotify", "nota": 4.9, "avaliacoes": 11057769,
+      "loja": "https://apps.apple.com/br/app/spotify-m%C3%BAsicas-e-podcasts/id324684580",
+      "icone": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/b0/e6/fdb0e66d-165c-aa66-ac6b-1ee1e01911e8/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/1024x1024bb.jpg",
+      "prints": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cd/94/02/cd94021c-36ad-82d5-a187-ae745bea88ea/IOS_-_5.5_-_S01_-__PT_-_BR.png/1242x2688bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/95/64/b195647e-6adc-d135-8835-4ab906d223e1/IOS_-_5.5_-_S02_-__PT_-_BR.png/1242x2688bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/26/91/1a269105-1351-f2e9-c004-abd94feafda9/IOS_-_5.5_-_S02_-___U005bPortuguese__U0028Brasil_U0029_U005d.png/1242x2688bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/da/4a/bada4aea-34c1-3cbf-0ce9-65c1da9b8dfd/IOS_-_5.5_-_S03_-__PT_-_BR.png/1242x2688bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/b1/57/18b15780-4543-a732-96f6-de4c71a62eb4/IOS_-_5.5_-_S04_-__PT_-_BR.png/1242x2688bb.jpg"
+      ]
+    },
+    "ifood": {
+      "id": 483017239, "nome": "iFood: pedir delivery em casa", "vendedor": "iFood Agencia de servicos de restaurantes LTDA", "nota": 4.9, "avaliacoes": 8868952,
+      "loja": "https://apps.apple.com/br/app/ifood-pedir-delivery-em-casa/id483017239",
+      "icone": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fe/50/d5/fe50d53b-1bb2-7b13-1149-3cb95c5f901b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
+      "prints": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/2d/ea/cb2deaac-ef57-bb49-3e33-f109e1e4c3ea/f3c26a60-b599-4fe8-abc9-2bca71745b0e_pg1.png/1242x2688bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/e9/d7/7ae9d7b5-9869-80b5-cbce-a258838d0667/dc077627-30e4-45b6-bcf0-79446968d92f_pg2.png/1242x2688bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/e9/2c/4ae92c2f-f997-6951-c6ba-09ae79051d19/d2ddaae4-998d-4090-9160-ddf273d86b86_pg3.png/1242x2688bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/76/65/44/76654484-94af-167a-a40b-833b33538aa2/469f1292-88f3-4cdc-ade8-982942b0dcd8_pg4.png/1242x2688bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/0b/d8/070bd88e-d4b6-97f0-6719-bffb118b12b9/be0421aa-5150-4213-b607-f42ac91ea4bd_pg5.png/1242x2688bb.jpg"
+      ]
+    },
+    "nubank": {
+      "id": 814456780, "nome": "Nubank: Conta, Cartão e mais", "vendedor": "NU PAGAMENTOS S/A INSTITUICAO DE PAGAMENTO", "nota": 4.8, "avaliacoes": 1642072,
+      "loja": "https://apps.apple.com/br/app/nubank-conta-cart%C3%A3o-e-mais/id814456780",
+      "icone": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/aa/1a/81aa1a88-1a02-60da-a86c-a713d0af701c/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/1024x1024bb.jpg",
+      "prints": []
+    }
+  }
+}
