@@ -35,8 +35,3 @@ Cada exemplo também tem `prompt-detalhado.md`: a mesma encomenda com mais regra
 - `baixar-assets.mjs`: testado contra um servidor local que imita a API da Apple (baixa, trata falha e usa o plano B de `assets.json`). Os endereços da API e das imagens foram abertos e conferidos no navegador, mas o download real das imagens não pôde ser rodado no ambiente onde o kit foi montado. Se algo falhar, a mensagem diz qual arquivo.
 - Narração: `hyperframes tts --lang pt-br --voice pf_dora` gerou todas as falas; as durações medidas cabem nas cenas. A qualidade da voz precisa ser ouvida por você.
 - `hyperframes beats` rodou na trilha do café: o detector marca o dobro do andamento real (184 em vez de 92), por isso o prompt pede um corte a cada 4 marcações.
-- `amostras/`: vídeos montados à mão com os mesmos arquivos, para mostrar o resultado esperado. Não são a saída dos fluxos oficiais do Hyperframes; o que o Claude gerar a partir do prompt vai diferir.
-  - `exemplo-app-foco.mp4`: app fictício, narração e trilha.
-  - `cafe-serra-amostra.mp4`: cortes nas batidas reais da trilha.
-  - `cigarra-formiga-amostra.mp4`: fábula completa com voz, legendas e trilha.
-- Não há amostra dos exemplos 01 e 03: eles dependem dos ícones e prints baixados, que não pude baixar aqui.
