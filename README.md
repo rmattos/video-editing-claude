@@ -12,12 +12,33 @@ Cada pasta numerada é um exemplo pronto: um `prompt.md` real e os arquivos que 
 
 ## Como usar
 
-1. Baixe as imagens dos apps, uma vez: `node baixar-assets.mjs` (Node 18 ou mais novo, sem instalar nada). Ele baixa o ícone e 5 prints do Duolingo, do Spotify e do iFood, e o ícone do Nubank, direto da App Store do Brasil.
-2. Crie o projeto e instale os fluxos:
-   `npx hyperframes init meu-video --resolution portrait` (use `landscape` nas pastas 03 e 04, `square` na 02)
-   `npx skills add heygen-com/hyperframes --full-depth`
-3. Copie o CONTEÚDO da pasta do exemplo (assets, audio, fotos, cenas, dados.json, roteiro.txt) para dentro do projeto.
-4. Abra o Claude Code na pasta do projeto e cole o texto de `prompt.md`.
+### Instalar (uma vez)
+
+Precisa de Git, Node 22 ou mais novo, FFmpeg e Claude Code.
+
+```
+git clone https://github.com/rmattos/video-editing-claude
+cd video-editing-claude
+node baixar-assets.mjs
+npx skills add heygen-com/hyperframes --full-depth -g -y -a claude-code
+npx hyperframes doctor
+```
+
+- `node baixar-assets.mjs` baixa da App Store do Brasil o ícone e 5 prints do Duolingo, do Spotify e do iFood, mais o ícone do Nubank. Roda com Node 18 ou mais novo, sem instalar nada.
+- `npx skills add ... -g -y -a claude-code` instala as 28 skills do Hyperframes no seu Claude Code (`~/.claude/skills`), sem perguntas. Basta rodar uma vez, não precisa repetir a cada projeto.
+- `npx hyperframes doctor` mostra o que falta (Node, FFmpeg, Chrome).
+
+### Rodar um exemplo
+
+1. Crie uma pasta nova para o vídeo. Troque o nome a cada exemplo, porque o `init` recusa pasta que não está vazia:
+   `npx hyperframes init video-duolingo --resolution portrait`
+   Formato de cada pasta: `portrait` em 01, 01b e 01c; `square` em 02; `landscape` em 03 e 04.
+2. Copie o CONTEÚDO da pasta do exemplo (assets, audio, fotos, cenas, dados.json, roteiro.txt) para dentro do projeto. Pode arrastar no Explorer/Finder ou usar:
+   `cp -r 01-app-duolingo/. video-duolingo/`
+3. Entre na pasta e abra uma **sessão nova** do Claude Code, para as skills carregarem:
+   `cd video-duolingo` e depois `claude`
+4. Cole o texto de `prompt.md`. Quando o Claude terminar, confira e renderize:
+   `npm run check` e `npm run render`
 
 Cada exemplo também tem `prompt-detalhado.md`: a mesma encomenda com mais regras, para quem quer controlar cada cena.
 
@@ -32,6 +53,7 @@ Cada exemplo também tem `prompt-detalhado.md`: a mesma encomenda com mais regra
 
 ## O que foi testado
 
+- Instalação: `npx hyperframes init` e `npx skills add heygen-com/hyperframes --full-depth -g -y -a claude-code` foram rodados no Linux (CLI 0.8.96) e instalaram as skills sem perguntas. No Windows não foi testado.
 - `baixar-assets.mjs`: testado contra um servidor local que imita a API da Apple (baixa, trata falha e usa o plano B de `assets.json`). Os endereços da API e das imagens foram abertos e conferidos no navegador, mas o download real das imagens não pôde ser rodado no ambiente onde o kit foi montado. Se algo falhar, a mensagem diz qual arquivo.
 - Narração: `hyperframes tts --lang pt-br --voice pf_dora` gerou todas as falas; as durações medidas cabem nas cenas. A qualidade da voz precisa ser ouvida por você.
 - `hyperframes beats` rodou na trilha do café: o detector marca o dobro do andamento real (184 em vez de 92), por isso o prompt pede um corte a cada 4 marcações.
